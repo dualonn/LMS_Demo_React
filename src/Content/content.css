@@ -1,0 +1,39 @@
+#page_content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.page_content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: scroll;
+}
+.block_title {
+    font: bold 35px Arial;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.block_content {
+    display: flex;
+    max-width: 80%;
+    text-align: start;
+    font-size: 18px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+.content{
+    display: flex;
+}
+.nav{
+    margin-top: 20px;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+}

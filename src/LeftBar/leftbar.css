@@ -1,0 +1,32 @@
+.leftbar{
+    height: 100%;
+    width: 15%;
+    min-width: 15%;
+    border-inline: 2px solid black;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+li {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*.css-b62m3t-container{*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*.css-t3ipsp-control{*/
+/*    align-self: center;*/
+/*    justify-self: center;*/
+/*}*/
+/*.css-lnmdiq5-menu{*/
+/*    flex-direction: column;*/
+/*}*/

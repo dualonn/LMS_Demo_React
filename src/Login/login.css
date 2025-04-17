@@ -1,0 +1,24 @@
+.login {
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px 50px 30px;
+    width: 400px;
+    display: flex;
+}
+.login-text{
+    margin-bottom: 5px;
+    text-align: left;
+}
+.login-button {
+    margin-top: 20px;
+    align-self: center;
+}
+.login-input{
+    height: 25px;
+    border-radius: 5px;
+}
+.errors{
+    margin-top: 20px;
+   align-self: center;
+}

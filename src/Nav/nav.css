@@ -1,0 +1,9 @@
+.hidden {
+    color: #ccc;
+    pointer-events:none;
+}
+
+span{
+    user-select: none;
+    cursor: pointer;
+}
