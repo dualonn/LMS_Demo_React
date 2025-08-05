@@ -1,9 +1,27 @@
-.hidden {
-    color: #ccc;
-    pointer-events:none;
+.nav {
+    display: flex; /* Use flexbox for layout */
+    width: 100%;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Push items to the start and end of container */
+    padding: 0 16px; /* Add padding to provide space on both edges */
+    box-sizing: border-box; /* Ensures padding doesn't affect width calculations */
 }
 
-span{
+span {
     user-select: none;
     cursor: pointer;
+    display: flex; /* Keep icons aligned properly */
+    align-items: center; /* Center aligned vertically */
+    padding: 0 8px; /* Space around the arrows themselves */
+}
+
+h3 {
+    margin: 0;
+    flex: 1; /* Allow h3 to take the remaining space */
+    text-align: center; /* Ensure the title is centered */
+}
+
+.hidden {
+    color: #ccc;
+    pointer-events: none;
 }
